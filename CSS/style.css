@@ -1,0 +1,736 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* hero section start */
+.parent {
+    height: 700px;
+    width: 100%;
+    background-image: url('../image/first-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.652);
+
+
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* hero image section start */
+.hero-img img {
+    height: 600px;
+    width: 350px;
+    position: relative;
+    top: 3.3rem;
+    left: 4rem;
+    z-index: 1;
+
+}
+
+/* hero image section end */
+
+/* title section start */
+.title {
+    text-align: left !important;
+    position: relative;
+    top: 4rem;
+    z-index: 1;
+}
+
+.title h1 {
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.title h1::after {
+    content: "";
+    display: block;
+    height: 2.5px;
+    width: 100px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
+
+}
+
+.title h3 {
+    color: rgb(244, 176, 47);
+}
+
+.title p {
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+}
+
+/* title section end */
+
+/* button section start */
+.btn {
+    padding-top: 30px;
+}
+
+.btn-one {
+    height: 42px;
+    width: 12rem;
+    background-color: rgb(244, 203, 8);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-one a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-one:hover {
+    background-color: rgb(233, 158, 19);
+    cursor: pointer;
+}
+
+.btn-two {
+    height: 45px;
+    width: 10rem;
+    margin-left: 30px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-two {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-two:hover {
+    background-color: rgb(244, 248, 252);
+    color: black;
+    cursor: pointer;
+}
+
+/* button section end */
+/* hero section end */
+
+/* details section start */
+
+.details {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+}
+
+.title-two {
+    position: relative;
+    right: 2rem;
+    bottom: 3rem;
+    font-size: 20px;
+}
+
+.title-two h3 {
+    color: rgb(244, 203, 8);
+}
+
+.title-two h1 {
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+}
+
+.title-two h1::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 55px;
+    background-color: rgb(244, 203, 8);
+    margin: 30px 0;
+    border-radius: 2px;
+}
+
+.title-two p {
+    color: rgb(203, 185, 179);
+    font-style: italic;
+
+}
+
+.disc {
+    position: relative;
+    left: 6rem;
+    top: 1rem;
+    text-align: left !important;
+    font-size: 20px;
+}
+
+.read button {
+    height: 40px;
+    width: 9rem;
+    margin-top: 30px;
+    background-color: rgb(244, 203, 8);
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.read button a {
+    color: white;
+}
+
+.read button:hover {
+    background-color: rgb(233, 158, 19);
+}
+
+/* details section end */
+
+/* sub-hero section start */
+.sub-hero {
+    height: 270px;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+
+.sub-hero-overlay {
+    height: 272px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.imgae-one {
+    height: 300px;
+    width: 33%;
+}
+
+.imgae-two {
+    height: 300px;
+    width: 33%;
+}
+
+.imgae-three {
+    height: 350px;
+    width: 33%;
+
+}
+
+.image-title {
+    position: relative;
+    bottom: 8rem;
+    margin-left: 2rem;
+    color: white;
+    z-index: 1;
+}
+
+.image-title h1::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 4rem;
+    background-color: rgb(244, 203, 8);
+    margin: 15px;
+    position: relative;
+    right: 15px;
+}
+
+/* sub-hero section end */
+
+/* services section start */
+.services {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+/* services title start */
+.services-title {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.services-title h3 {
+    color: rgb(244, 203, 8);
+    font-size: 25px;
+}
+
+.services-title h1 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.services-title h1::after {
+    content: "";
+    display: block;
+    height: 2.5px;
+    width: 80px;
+    background-color: rgb(244, 203, 8);
+    position: relative;
+    left: 45rem;
+    margin-top: 30px;
+}
+
+/* services title end */
+
+/* icon and icon title section start */
+.icon {
+    height: 250px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icon-one {
+    border: 2px solid rgb(244, 203, 8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icon-one-ttile {
+    position: relative;
+    right: 4rem;
+    top: 0.5rem;
+
+}
+
+.icon-one-ttile h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.icon-one-ttile p {
+    margin-top: 1rem;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(55, 39, 17);
+}
+
+.icon-two {
+    border: 2px solid rgb(244, 203, 8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icon-two-ttile {
+    position: relative;
+    right: 4rem;
+    top: 0.5rem;
+
+}
+
+.icon-two-ttile h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.icon-two-ttile p {
+    margin-top: 1rem;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(55, 39, 17);
+}
+
+.icon-three {
+    border: 2px solid rgb(244, 203, 8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icon-three-title {
+    position: relative;
+    right: 4rem;
+    top: 0.5rem;
+}
+
+.icon-three-title h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.icon-three-title p {
+    margin-top: 1rem;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(55, 39, 17);
+}
+
+/* icon and icon title section end */
+
+/* icon-down and icon-down title start */
+.icon-down {
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.icon-four {
+    border: 2px solid rgb(244, 203, 8);
+    padding: 13px 5px;
+    border-radius: 10px;
+}
+
+.icon-four-ttile {
+    position: relative;
+    right: 3rem;
+    top: 0.5rem;
+}
+
+.icon-four-ttile h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.icon-four-ttile p {
+    margin-top: 1rem;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(55, 39, 17);
+}
+
+.icon-five {
+    border: 2px solid rgb(244, 203, 8);
+    padding: 10px 12px;
+    border-radius: 10px;
+    position: relative;
+    right: 1.2rem;
+}
+
+.icon-five-ttile {
+    position: relative;
+    right: 4rem;
+    top: 0.5rem;
+}
+
+.icon-five-ttile h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.icon-five-ttile p {
+    margin-top: 1rem;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(55, 39, 17);
+}
+
+.icon-six {
+    border: 2px solid rgb(244, 203, 8);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 2rem;
+}
+
+.icon-six-ttile {
+    position: relative;
+    right: 1rem;
+    top: 0.5rem;
+}
+
+.icon-six-ttile h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.icon-six-ttile p {
+    margin-top: 1rem;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(55, 39, 17);
+}
+
+/* icon-down and icon-down title end */
+/* services section end */
+
+/* portfolio section start */
+.portfolio {
+    height: 850px;
+    width: 100%;
+}
+
+/* portfolio-title start */
+.portfolio-title {
+    height: 230px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+.portfolio-title h2 {
+    color: rgb(244, 203, 8);
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.portfolio-title h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+
+.portfolio-title h1::after {
+    content: '';
+    display: block;
+    height: 2.5px;
+    width: 80px;
+    background-color: rgb(244, 203, 8);
+    position: relative;
+    left: 45rem;
+    margin-top: 30px;
+}
+
+/* portfolio-title end */
+
+/* portfolio-image start */
+.portfolio-img {
+    width: 24rem;
+    height: 300px;
+}
+
+.portfolio-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* portfolio-image end */
+/* portfolio section end */
+
+/* sub-details section start */
+.sub-details {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sub-details-image start */
+.sub-details-image {
+    position: relative;
+    right: 2rem;
+}
+
+/* sub-details-image end */
+
+/* sub-details-title start */
+.sub-details-title {
+    position: relative;
+    left: 2rem;
+    text-align: left !important;
+}
+
+.sub-details-title h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: rgb(244, 203, 8);
+}
+
+.sub-details-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sub-details-title h1::after {
+    content: '';
+    display: block;
+    height: 2.5px;
+    width: 80px;
+    background-color: rgb(244, 203, 8);
+    position: relative;
+    margin: 30px 0;
+}
+
+.sub-details-title p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.sub-details-title button {
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(244, 203, 8);
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.sub-details-title button a {
+    color: white;
+}
+
+.sub-details-title button:hover {
+    background-color: rgb(222, 186, 7);
+}
+
+/* sub-details-title end */
+/* sub-details section end */
+
+/* project-counter section start */
+.project-counter {
+    height: 250px;
+    width: 100%;
+    background-image: url('../image/bgtwo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.578);
+
+}
+
+.project-counter-hero {
+    height: 250px;
+    width: 80%;
+    background-color: transparent;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter {
+    text-align: center !important;
+    z-index: 1;
+}
+
+.counter h1 {
+    font-size: 40px;
+    color: rgb(244, 203, 8);
+    margin-bottom: 20px;
+}
+
+.counter p {
+    font-size: 18px;
+}
+
+.counter p::after {
+    content: '';
+    display: block;
+    height: 3.2px;
+    width: 70px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px;
+    position: relative;
+    left: 1.3rem;
+}
+
+/* project-counter section end */
+
+/* working zone start */
+.working-zone {
+    height: 650px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* working-zone-title start */
+.working-zone-title {
+    position: absolute;
+    top: 5rem;
+}
+
+.working-zone-title h3 {
+    color: rgb(244, 203, 8);
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 7rem;
+}
+
+.working-zone-title h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+.working-zone-title h1::after {
+    content: '';
+    display: block;
+    height: 3.5px;
+    width: 5rem;
+    background-color: rgb(244, 203, 8);
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 3rem;
+}
+
+/* working-zone-title end  */
+
+/* working-icon section start */
+.working-icon {
+    align-self: self-end;
+    position: relative;
+    text-align: center !important;
+    padding: 50px;
+    bottom: 2rem;
+}
+
+.working-icon img {
+    height: 50px;
+    width: 50px;
+    border-radius: 150px;
+    padding: 20px;
+    background-color: rgb(244, 203, 8);
+    margin-bottom: 20px;
+}
+
+.working-icon h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.working-icon p {
+    line-height: 1.2rem;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* working-icon section end */
+/* working zone end */
