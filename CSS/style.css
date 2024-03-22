@@ -740,3 +740,283 @@ img {
 
 /* working-icon section end */
 /* working zone end */
+
+/* testimonial section start */
+.testimonial {
+    height: 900px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.contain {
+    align-self: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.testimonial-title {
+    position: absolute;
+    color: white;
+    margin: 100px 0;
+}
+
+.testimonial-title h3 {
+    text-transform: uppercase;
+    color: rgb(244, 203, 8);
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+}
+
+.testimonial-title h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.testimonial-title h1::after {
+    content: '';
+    display: block;
+    height: 2.5px;
+    width: 80px;
+    background-color: rgb(244, 203, 8);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.contain-title {
+    border: 2px solid white;
+    padding: 30px 30px 100px 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 25px;
+    color: white;
+}
+
+.testimonial-image {
+    position: absolute;
+    top: 12.5rem;
+    left: 8.5rem;
+}
+
+.testimonial-image h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    position: relative;
+    right: 2.5rem;
+    margin: 20px 0 10px 0;
+
+}
+
+.testimonial-image h3 {
+    font-size: 24px;
+    color: rgb(244, 203, 8);
+    font-weight: 400;
+
+}
+
+/* testimonial section end */
+
+/* logo section start */
+.logo {
+    height: 350px;
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-logo {
+    padding: 0 40px;
+}
+
+/* logo section end */
+
+
+/* blog section start */
+.blog {
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: relative;
+}
+
+/* blog title start */
+.blog-title {
+    position: absolute;
+    left: 40rem;
+    margin: 100px 0;
+
+}
+
+.blog-title h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #F4CB08;
+    text-align: center;
+    margin: 30px;
+}
+
+.blog-title h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #111111;
+    font-family: Roboto sans-serif;
+    margin: 30px;
+}
+
+.blog-title h2::after {
+    content: '';
+    display: block;
+    height: 2.5px;
+    width: 60px;
+    background-color: #F4CB08;
+    position: relative;
+    left: 4.5rem;
+    margin: 30px 0 0 0;
+}
+
+/* blog title end */
+
+.container {
+    align-self: center;
+    position: relative;
+    left: 12rem;
+    top: 7rem;
+    margin: 20px;
+
+}
+
+.blog-image img {
+    height: 300px;
+    width: 350px;
+}
+
+.blog-image-title {
+    margin-left: 20px;
+}
+
+.blog-image-title h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 20px 0 10px 0;
+}
+
+.blog-image-title h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(179, 179, 179);
+
+}
+
+.blog-image-title p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(17, 17, 17);
+    text-align: left;
+    line-height: 25px;
+    word-spacing: 1px;
+    margin: 30px 0 50px 0;
+}
+
+.blog-image-title a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* blog section end */
+
+
+/* elvo section start */
+.elvo {
+    height: 250px;
+    width: 100%;
+    background-color: #F4CB08;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elvo-title {
+    position: relative;
+    right: 12rem;
+}
+
+.elvo-title h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #FFFFFF;
+    word-spacing: 1px;
+}
+
+.elvo-title p {
+    height: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+    color: #FFFFFF;
+}
+
+.elvo-button {
+    border: 1px solid white;
+    padding: 15px 30px;
+    margin-bottom: 3rem;
+
+}
+
+.elvo-button a {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+/* elvo section end */
+
+
+/* footer section start */
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 300;
+
+}
+
+.footer h6 {
+    color: #F4CB08;
+
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+/* footer section end */
