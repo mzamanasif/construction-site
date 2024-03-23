@@ -963,7 +963,7 @@ img {
 
 .elvo-title {
     position: relative;
-    right: 12rem;
+    right: 15rem;
 }
 
 .elvo-title h2 {
@@ -984,6 +984,7 @@ img {
     border: 1px solid white;
     padding: 15px 30px;
     margin-bottom: 3rem;
+
 
 }
 
@@ -1019,4 +1020,5 @@ img {
 .footer a {
     color: #FFFFFF;
 }
+
 /* footer section end */
